@@ -1,0 +1,23 @@
+body {
+    background-color: #00af91;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.container {
+    text-align: center;
+    color: #252525;
+    margin: 7rem auto;
+    padding: 1rem;
+    width: 25%;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+h2 {
+    line-height: 1;
+    padding: 1rem;
+}
+@media (max-width:1028px) {
+    body {
+        text-align: center;
+    }
+}
